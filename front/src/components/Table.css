@@ -1,0 +1,37 @@
+/* Add this CSS to your stylesheet */
+.tier-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tier {
+  flex: 1;
+  min-width: 100%;
+  min-height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+
+}
+
+.tier-row {
+  display: flex;
+  flex-wrap: wrap;
+  font: 1em tahoma;
+  align-items: top;
+  gap: 0.5em;
+  width: 100%; /* Ensure each row takes full width */
+}
+
+.tier-item {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.item-details {
+  text-align: center;
+}
+
+.item-details img {
+  max-width: 100px;
+}
