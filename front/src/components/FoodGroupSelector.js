@@ -1,60 +1,7 @@
-
-/* import axios from "axios";
-import { useEffect, useState } from "react";
-
-const FoodGroupSelector = ({ foodGroups, setFoodGroups, setfoodCodes }) => {
-  const [selectedFoodGroup, setSelectedFoodGroup] = useState(""); // Add selectedFoodGroup state
-  
-  useEffect(() => {
-    axios.get("http://localhost:3001/api/foodGroup/all")
-      .then(response => {
-        setFoodGroups(response.data);
-        console.log('foodGroups: ', response.data);
-      })
-      .catch(error => {
-        console.error("Error fetching food groups:", error);
-      });
-  }, []);
-
-  useEffect(() => {
-    axios.get(`http://localhost:3001/api/foodGroup/${selectedFoodGroup}`)
-      .then(response => {
-        setfoodCodes(response.data);
-      })
-      .catch(error => {
-        console.error("Error fetching food codes:", error);
-      });
-  }, [selectedFoodGroup, setfoodCodes]);
-
-  // Function to update selectedFoodGroup
-  const handleFoodGroupChange = (event) => {
-    const newValue = event.target.value;
-    setSelectedFoodGroup(newValue);
-  };
-
-  return (
-    <div>
-      <h1>FoodGroupSelector</h1>
-      <select value={selectedFoodGroup} onChange={handleFoodGroupChange}>
-        <option value="">Select a Food Group</option>
-        {foodGroups.map((foodGroup, index) => (
-          <option key={index} value={foodGroup}>
-            {foodGroup}
-          </option>
-        ))}
-      </select>
-    </div>
-  );
-};
-
-export default FoodGroupSelector; */
-
-
 import "./FoodGroupSelector.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
-
-const host = process.env.MY_HOST || 'localhost:3001';
+import { MY_API } from "../config";
 
 const FoodGroupSelector = ({ foodGroups, setFoodGroups, setfoodCodes }) => {
   const [selectedFoodGroups, setSelectedFoodGroups] = useState([]);
@@ -62,7 +9,7 @@ const FoodGroupSelector = ({ foodGroups, setFoodGroups, setfoodCodes }) => {
 
   // Fetch food groups
   useEffect(() => {
-    axios.get(`http://${host}/api/foodGroup/all`)
+    axios.get(`${MY_API}/api/foodGroup/all`)
       .then(response => {
         setFoodGroups(response.data);
       })
@@ -75,7 +22,7 @@ const FoodGroupSelector = ({ foodGroups, setFoodGroups, setfoodCodes }) => {
   useEffect(() => {
     // Create an array of promises for fetching food codes
     const fetchFoodCodesPromises = selectedFoodGroups.map(selectedGroup => {
-      return axios.get(`http://${host}/api/foodGroup/${selectedGroup}`);
+      return axios.get(`${MY_API}/api/foodGroup/${selectedGroup}`);
     });
 
     // Execute all promises concurrently
@@ -116,7 +63,7 @@ const FoodGroupSelector = ({ foodGroups, setFoodGroups, setfoodCodes }) => {
             onClick={() => handleFoodGroupClick(foodGroup)}
             className={`foodGroupItem ${infoStates[foodGroup] ? 'info-visible' : ''} ${selectedFoodGroups.includes(foodGroup) ? 'active-food-group' : ''}`}
           >
-            <img src={`http://${host}/api/pics/${foodGroup}/sample.webp`} alt={`Sample for ${foodGroup}`} />
+            <img src={`${MY_API}/api/pics/${foodGroup}/sample.webp`} alt={`Sample for ${foodGroup}`} />
             <div className="foodGroupItem-title">
               <h3>{capitalizeFirstLetter(foodGroup)}</h3>
             </div>

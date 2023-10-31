@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./FoodItem.css";
+import { MY_API } from "../config";
 import Calories from "./pics/Calories.webp";
 import Fat from "./pics/Fat.webp";
 import Protein from "./pics/Protein.webp";
@@ -12,7 +13,7 @@ import Sugar from "./pics/Sugar.webp";
 const host = process.env.MY_HOST || 'localhost:3001';
 
 const fetchPic = (fdcId, foodType) => {
-    const dataUrl = `http://${host}/api/pics/${foodType}/${fdcId}.webp`;
+    const dataUrl = `${MY_API}/api/pics/${foodType}/${fdcId}.webp`;
     return dataUrl;
 };
 
@@ -37,7 +38,7 @@ const FoodItem = ({ fdcId, description, foodType, chosenFoods, setChosenFoods })
   useEffect(() => {
     const fetchFoodData = async () => {
       try {
-        const response = await axios.get(`http://${host}/api/food/${fdcId}`);
+        const response = await axios.get(`${MY_API}/api/food/${fdcId}`);
         setFoodData(response.data);
       } catch (error) {
         setError(true);

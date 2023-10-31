@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './ChosenFoods.css';
 import RecipeModal from './RecipeModal';
+import { MY_API } from '../config';
 
 const ChosenFoods = ({ chosenFoods, setChosenFoods }) => {
   const [recipeGenerated, setRecipeGenerated] = useState(false);
@@ -27,7 +28,7 @@ const ChosenFoods = ({ chosenFoods, setChosenFoods }) => {
       };
 
       axios
-      .post('http://localhost:3001/api/gpt/generate-recipe', requestBody)
+      .post(`${MY_API}/api/gpt/generate-recipe`, requestBody)
       .then((response) => {
         console.log('Generated Recipe:', response.data.recipe);
         setGeneratedRecipe(response.data.recipe);
