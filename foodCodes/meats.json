@@ -1,152 +1,182 @@
 [
-    {
+  {
       "fdcId": 171969,
       "tier": "S",
-      "description": "Crab"
-    },
-    {
+      "description": "Crab",
+      "type": "meats"
+  },
+  {
       "fdcId": 2341378,
       "tier": "S",
-      "description": "Chicken breast"
-    },
-    {
+      "description": "Chicken breast",
+      "type": "meats"
+  },
+  {
       "fdcId": 171287,
       "tier": "S",
-      "description": "Egg"
-    },
-    {
-      "fdcId":2341562,
+      "description": "Egg",
+      "type": "meats"
+  },
+  {
+      "fdcId": 2341562,
       "tier": "S",
-      "description": "Beef liver" 
-    },
-    {
-      "fdcId":167634,
+      "description": "Beef liver",
+      "type": "meats"
+  },
+  {
+      "fdcId": 167634,
       "tier": "S",
-      "description": "Mutton"
-    },
-    {
+      "description": "Mutton",
+      "type": "meats"
+  },
+  {
       "fdcId": 174348,
       "tier": "S",
-      "description": "Rabbit"
-    },
-    {
+      "description": "Rabbit",
+      "type": "meats"
+  },
+  {
       "fdcId": 173691,
       "tier": "S",
-      "description": "Salmon"
-    },
-    {
+      "description": "Salmon",
+      "type": "meats"
+  },
+  {
       "fdcId": 171496,
       "tier": "S",
-      "description": "Turkey breast"
-    },
-    {
+      "description": "Turkey breast",
+      "type": "meats"
+  },
+  {
       "fdcId": 2341449,
       "tier": "A",
-      "description": "Chicken thigh"
-    },
-    {
-      "fdcId": 168608 ,
+      "description": "Chicken thigh",
+      "type": "meats"
+  },
+  {
+      "fdcId": 168608,
       "tier": "A",
-      "description": "Ground beef"
-    },
-    {
+      "description": "Ground beef",
+      "type": "meats"
+  },
+  {
       "fdcId": 2341314,
       "tier": "A",
-      "description": "Goat"
-    },
-    {
+      "description": "Goat",
+      "type": "meats"
+  },
+  {
       "fdcId": 173847,
-      "tier": "A", 
-      "description": "Bison"
-    },
-    {
+      "tier": "A",
+      "description": "Bison",
+      "type": "meats"
+  },
+  {
       "fdcId": 175180,
       "tier": "A",
-      "description": "Shrimp"
-    },
-    {
+      "description": "Shrimp",
+      "type": "meats"
+  },
+  {
       "fdcId": 168724,
       "tier": "A",
-      "description": "Beef tenderloin"
-    },
-    {
+      "description": "Beef tenderloin",
+      "type": "meats"
+  },
+  {
       "fdcId": 175158,
       "tier": "A",
-      "description": "Canned tuna"
-    },
-    {
+      "description": "Canned tuna",
+      "type": "meats"
+  },
+  {
       "fdcId": 171506,
       "tier": "A",
-      "description": "Ground turkey"  
-    },
-    {
+      "description": "Ground turkey",
+      "type": "meats"
+  },
+  {
       "fdcId": 172602,
       "tier": "A",
-      "description": "Venison"
-    },
-    {
+      "description": "Venison",
+      "type": "meats"
+  },
+  {
       "fdcId": 171955,
       "tier": "B",
-      "description": "Cod"
-    },
-    {
+      "description": "Cod",
+      "type": "meats"
+  },
+  {
       "fdcId": 172410,
       "tier": "B",
-      "description": "Duck"
-    },
-    {
+      "description": "Duck",
+      "type": "meats"
+  },
+  {
       "fdcId": 2341311,
       "tier": "B",
-      "description": "Lamb"
-    },
-    {
+      "description": "Lamb",
+      "type": "meats"
+  },
+  {
       "fdcId": 167903,
       "tier": "B",
-      "description": "Ground pork"
-    },
-    {
+      "description": "Ground pork",
+      "type": "meats"
+  },
+  {
       "fdcId": 167884,
       "tier": "B",
-      "description": "Pork chop"
-    },
-    {
+      "description": "Pork chop",
+      "type": "meats"
+  },
+  {
       "fdcId": 175159,
       "tier": "B",
-      "description": "Fresh tuna"
-    },
-    {
+      "description": "Fresh tuna",
+      "type": "meats"
+  },
+  {
       "fdcId": 2341283,
       "tier": "C",
-      "description": "Ham"
-    },
-    {
+      "description": "Ham",
+      "type": "meats"
+  },
+  {
       "fdcId": 168277,
       "tier": "C",
-      "description": "Bacon"
-    },
-    {
+      "description": "Bacon",
+      "type": "meats"
+  },
+  {
       "fdcId": 171620,
       "tier": "D",
-      "description": "Bratwurst"
-    },
-    {
+      "description": "Bratwurst",
+      "type": "meats"
+  },
+  {
       "fdcId": 174575,
       "tier": "D",
-      "description": "Pepperoni" 
-    },
-    {
+      "description": "Pepperoni",
+      "type": "meats"
+  },
+  {
       "fdcId": 174603,
       "tier": "D",
-      "description": "Salami"
-    },
-    {
+      "description": "Salami",
+      "type": "meats"
+  },
+  {
       "fdcId": 174586,
       "tier": "D",
-      "description": "Italian sausage"
-    },
-    {
-      "fdcId": 174614 ,
+      "description": "Italian sausage",
+      "type": "meats"
+  },
+  {
+      "fdcId": 174614,
       "tier": "F",
-      "description": "Hot dog"
-    }
+      "description": "Hot dog",
+      "type": "meats"
+  }
 ]

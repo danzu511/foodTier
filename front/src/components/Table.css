@@ -2,23 +2,64 @@
 .tier-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+  width: 90%;
+  
+}
+.tier-title{
+  text-align: center;
+  background-color: #313638;
+  color: #f7fff7;
+  min-width: 100%;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  display: flex;
+  align-items: center;
+  min-height: 3.5em;
+}
+.tier-title img{
+  width: 30px;
+  height: 30px;
+  margin-left :5em;
+  margin-right: 1em;
+}
+.tier-title input{
+  background-color: #313638;
+  color: #f7fff7;
+  padding: 5px;
+  padding-left: 15px;
+  border: 2px solid white;
+  max-width: 30%;
+  border-radius: 2em;
+  border: 1em;
+  font-size: 1.5em;
+  text-align: 10%;
 }
 
 .tier {
+  display: inline-flex;
   flex: 1;
   min-width: 100%;
-  min-height: 200px;
-  border: 1px solid #ccc;
-  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5em;
+}
 
+.tier-header{
+  font-size: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: -1em;
+  margin-top: -1em;
+  text-shadow: #000000 1px 1px 3px;;
+  align-items: center;
 }
 
 .tier-row {
   display: flex;
   flex-wrap: wrap;
-  font: 1em tahoma;
   align-items: top;
-  gap: 0.5em;
+  row-gap: 0.5em;
   width: 100%; /* Ensure each row takes full width */
 }
 
@@ -35,3 +76,4 @@
 .item-details img {
   max-width: 100px;
 }
+

@@ -1,0 +1,48 @@
+.foodGroupSelector{
+  text-align: center;
+  color: #f7fff7;
+  border-radius: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  margin: auto;
+}
+.foodGroupSelector-options{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.foodGroupItem {
+    border: 0.15em solid transparent; /* Add your desired border style */
+    border-radius: 20%; /* Adjust the border radius as needed */
+    margin: 2px;
+    text-align: center;
+    padding: 5px;
+  }
+  .foodGroupItem-title{
+    position: relative; /* Set the position to relative */
+    top: -10px; /* Adjust the value to raise the text higher */
+  }
+.foodGroupItem.info-visible {
+    position: relative;
+    animation: shimmerBorder 4s infinite;
+  }
+  .active-food-group {
+    background-color: rgb(102, 112, 108); /* Set your desired background color */
+    /* Add any other styles you want to apply to the active food group */
+  }
+  
+  
+  @keyframes shimmerBorder {
+    0%, 100% {
+      border-color: rgba(0, 255, 0, 0.295)
+    }
+    50% {
+      border-color: rgb(30, 100, 30); /* Adjust the color as needed */
+    }
+  }
+  
+  /* ... your existing CSS ... */
+  
+  

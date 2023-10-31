@@ -2,11 +2,29 @@
 .foodItem {
     border: 0.15em solid transparent; /* Add your desired border style */
     border-radius: 0.2em; /* Adjust the border radius as needed */
+    text-align: center;
+    width: 9.5em;
   }
 .foodItem.info-visible {
     position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
     animation: shimmerBorder 4s infinite;
   }
+
+  .Nutrition-info {
+    display: flex; /* Display image and paragraph in a row */
+    align-items: center; /* Vertically center content */
+    font-size: 0.9em; /* Adjust font size as needed */
+    margin-bottom: -1em; /* Add margin between each Nutrition-info section */
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  
+  .Nutrition-info img {
+    margin-right: 1em; /* Add margin between the image and paragraph */
+  }
+
   
   @keyframes shimmerBorder {
     0%, 100% {
