@@ -1,0 +1,224 @@
+[
+    {
+        "fdcId": 171705,
+        "tier": "S",
+        "description": "Avocado",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 173946,
+        "tier": "S",
+        "description": "Blackberry",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 171711,
+        "tier": "S",
+        "description": "Blueberry",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 174675,
+        "tier": "S",
+        "description": "Grapefruit",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 173044,
+        "tier": "S",
+        "description": "Guava",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 2344734,
+        "tier": "S",
+        "description": "Kiwi",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169124,
+        "tier": "S",
+        "description": "Pineapple",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169134,
+        "tier": "S",
+        "description": "Pomegranate",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 168448,
+        "tier": "S",
+        "description": "Pumpkin",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169092,
+        "tier": "A",
+        "description": "Cantaloupe",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 171722,
+        "tier": "A",
+        "description": "Cranberry",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 167746,
+        "tier": "A",
+        "description": "Lemon",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 168155,
+        "tier": "A",
+        "description": "Lime",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169926,
+        "tier": "A",
+        "description": "Papaya",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 167755,
+        "tier": "A",
+        "description": "Raspberry",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 168472,
+        "tier": "A",
+        "description": "Squash",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 167762,
+        "tier": "A",
+        "description": "Strawberry",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 170457,
+        "tier": "A",
+        "description": "Tomato",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 173944,
+        "tier": "B",
+        "description": "Banana",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 171719,
+        "tier": "B",
+        "description": "Cherry",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 170169,
+        "tier": "B",
+        "description": "Coconut",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 2346412,
+        "tier": "B",
+        "description": "Grape",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169910,
+        "tier": "B",
+        "description": "Mango",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169918,
+        "tier": "B",
+        "description": "Orange",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169949,
+        "tier": "B",
+        "description": "Plum",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169105,
+        "tier": "B",
+        "description": "Tangerine",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 167765,
+        "tier": "B",
+        "description": "Watermelon",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 171689,
+        "tier": "C",
+        "description": "Apple",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 171697,
+        "tier": "C",
+        "description": "Apricot",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169911,
+        "tier": "C",
+        "description": "Honeydew",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169094,
+        "tier": "C",
+        "description": "Olive",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169291,
+        "tier": "C",
+        "description": "Zucchini",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 168191,
+        "tier": "D",
+        "description": "Date",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 173021,
+        "tier": "D",
+        "description": "Fig",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169914,
+        "tier": "D",
+        "description": "Nectarine",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169928,
+        "tier": "D",
+        "description": "Peach",
+        "type": "fruits"
+    },
+    {
+        "fdcId": 169118,
+        "tier": "D",
+        "description": "Pear",
+        "type": "fruits"
+    }
+]

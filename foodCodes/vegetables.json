@@ -1,0 +1,230 @@
+[
+    {
+        "fdcId": 170379  ,
+        "tier": "S",
+        "description": "Broccoli",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 170393 ,
+        "tier": "S",
+        "description": "Carrot",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 170106 ,
+        "tier": "S",
+        "description": "Chili pepper",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 2345077 ,
+        "tier": "S",
+        "description": "Collards",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169230 ,
+        "tier": "S",
+        "description": "Garlic",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 168421 ,
+        "tier": "S",
+        "description": "Kale",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169256 ,
+        "tier": "S",
+        "description": "Mustard greens",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 168462 ,
+        "tier": "S",
+        "description": "Spinach",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 2346404 ,
+        "tier": "S",
+        "description": "Sweet potato",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169387,
+        "tier": "A",
+        "description": "Arugula",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 168389,
+        "tier": "A",
+        "description": "Asparagus",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 2345290,
+        "tier": "A",
+        "description": "Beets",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 2258590,
+        "tier": "A",
+        "description": "Bell pepper",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 170383,
+        "tier": "A",
+        "description": "Brussels sprouts",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 170497 ,
+        "tier": "A",
+        "description": "Jalopeno",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169247 ,
+        "tier": "A",
+        "description": "Romaine lettuce",
+        "type": "vegetables"
+    },
+    {
+        "fdcId":790646 ,
+        "tier": "A",
+        "description": "Yellow onion",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 1977290 ,
+        "tier": "A",
+        "description": "Water cress",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169205,
+        "tier": "B",
+        "description": "Artichoke",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 170390,
+        "tier": "B",
+        "description": "Bok choy",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 2346407 ,
+        "tier": "B",
+        "description": "Cabbage",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169986 ,
+        "tier": "B",
+        "description": "Cauliflower",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 168412 ,
+        "tier": "B",
+        "description": "Endive",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 170417 ,
+        "tier": "B",
+        "description": "Parsnip",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 170419 ,
+        "tier": "B",
+        "description": "Green peas",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 170114 ,
+        "tier": "B",
+        "description": "Potato",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169276 ,
+        "tier": "B",
+        "description": "Radish",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 2025077 ,
+        "tier": "B",
+        "description": "Water chestnut",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169988 ,
+        "tier": "C",
+        "description": "Celery",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169217 ,
+        "tier": "C",
+        "description": "Corn",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 168409 ,
+        "tier": "C",
+        "description": "Cucumber",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169961 ,
+        "tier": "C",
+        "description": "Green beans",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169246 ,
+        "tier": "C",
+        "description": "Leek",
+        "type": "vegetables"
+    },
+    {
+        "fdcId":168558 ,
+        "tier": "C",
+        "description": "Dill pickle",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169228 ,
+        "tier": "D",
+        "description": "Eggplant",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169248 ,
+        "tier": "D",
+        "description": "Iceberg lettuce",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 169260 ,
+        "tier": "D",
+        "description": "Okra",
+        "type": "vegetables"
+    },
+    {
+        "fdcId": 170547 ,
+        "tier": "D",
+        "description": "Turnip",
+        "type": "vegetables"
+    }
+]
