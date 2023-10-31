@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28560cd8.css",
+    "main.js": "/static/js/main.de21240f.js",
+    "static/js/787.71df535f.chunk.js": "/static/js/787.71df535f.chunk.js",
+    "static/media/Carbs.webp": "/static/media/Carbs.156f6f81861b801ad760.webp",
+    "static/media/Fat.webp": "/static/media/Fat.6d0bf86f3c95ce313322.webp",
+    "static/media/Calories.webp": "/static/media/Calories.f766b260171f76388304.webp",
+    "static/media/Protein.webp": "/static/media/Protein.2f191330b807be0a9319.webp",
+    "static/media/Sugar.webp": "/static/media/Sugar.ab901cd73fd6b67bbdd5.webp",
+    "static/media/Fiber.webp": "/static/media/Fiber.39a61ad0afb83543ff6e.webp",
+    "static/media/Search.webp": "/static/media/Search.ad5e9e1dc5e921f58b25.webp",
+    "index.html": "/index.html",
+    "main.28560cd8.css.map": "/static/css/main.28560cd8.css.map",
+    "main.de21240f.js.map": "/static/js/main.de21240f.js.map",
+    "787.71df535f.chunk.js.map": "/static/js/787.71df535f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28560cd8.css",
+    "static/js/main.de21240f.js"
+  ]
+}
